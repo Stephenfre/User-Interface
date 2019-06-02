@@ -138,11 +138,13 @@ h1 {
 .item-content1 {
 	display: inline-block;
 	width: 49.5%;
+	margin-bottom: 10px;
 }
 
 .item-content2 {
 	display: inline-block;
 	width: 33%;
+	margin-top: 10px;
 }
 
 .main-container img {
