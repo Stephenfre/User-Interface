@@ -64,3 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header img .logo {
+	margin-left: 35
+}
+
+header nav a {
+	color: grey;
+	font-size: 12px;
+	text-decoration: none;
+/* TB LR */	
+	margin: 0 30px;
+}
+
+.iod {
+	/* background-color: red; */
+	padding: 30px;
+}
+
+.iod-text {
+	/* background-color: green; */
+	display: inline-block;
+	width: 45%;
+	height: 100%;
+	text-align: center;
+}
+
+.iod-img {
+	display: inline-block;
+    width: 45%;
+    margin-left: 75px;
+    padding: 30px;
+}
+
+.iod-img img {
+    width: 100%;
+}
+
+h1 {
+	font-size: 75px;
+	padding: 30px;
+	text-align: center;
+}
+
+.iod button {
+	/* TB LR */
+	padding: 10px 50px;
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+
+.main-container {
+	/* background-color: red; */
+	width: 100%;
+  	padding: 10px;
+  	border: 5px;
+	margin: 0;
+}
+
+.item-content1 {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.item-content2 {
+	display: inline-block;
+	width: 33%;
+}
+
+.main-container img {
+	margin: 15px 0;
+}
+
+.contact {
+	display: inline-block;
+	padding: 10px;
+}
+
+.contact address {
+	margin: 10px 0;
+}
+
+.contact p {
+	margin: 10px 0;
+}
+
+.footer {
+	text-align: center;
+}
