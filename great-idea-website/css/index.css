@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
+	/* background-color: green; */
 }
 
 header nav {
@@ -74,8 +75,9 @@ header nav {
 	margin-top: 35px;
 }
 
-header img .logo {
-	margin-left: 35
+header .img-logo {
+	display: inline-block;
+	margin-left: 70px;
 }
 
 header nav a {
@@ -83,27 +85,36 @@ header nav a {
 	font-size: 12px;
 	text-decoration: none;
 /* TB LR */	
-	margin: 0 30px;
+	margin: 0 22px;
+	float: left;
+	display: block;
+	padding: 10px; 
+}
+
+header nav a:hover {
+	color: black;
 }
 
 .iod {
-	/* background-color: red; */
+	margin-top: 35px;
 	padding: 30px;
+	margin-bottom: 45px;
 }
 
 .iod-text {
-	/* background-color: green; */
-	display: inline-block;
-	width: 45%;
-	height: 100%;
-	text-align: center;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 45%;
+    margin-top: 45px;
+    height: 100%;
+    text-align: center;
 }
 
 .iod-img {
 	display: inline-block;
-    width: 45%;
-    margin-left: 75px;
-    padding: 30px;
+    width: 50%;
+    margin-left: 25px	
 }
 
 .iod-img img {
@@ -112,7 +123,7 @@ header nav a {
 
 h1 {
 	font-size: 75px;
-	padding: 30px;
+	margin: 30px 30px 15px 30px;
 	text-align: center;
 }
 
@@ -126,10 +137,12 @@ h1 {
 	border: 1px solid black;
 }
 
+.iod button:hover {
+	background-color: black;
+	color: white;
+}
 
-.main-container {
-	/* background-color: red; */
-	width: 100%;
+.main-container {	width: 100%;
   	padding: 10px;
   	border: 5px;
 	margin: 0;
@@ -138,13 +151,19 @@ h1 {
 .item-content1 {
 	display: inline-block;
 	width: 49.5%;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.main-container :nth-child(1) {
+	margin-right: 5px;
 }
 
 .item-content2 {
 	display: inline-block;
 	width: 33%;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .main-container img {
@@ -153,17 +172,18 @@ h1 {
 
 .contact {
 	display: inline-block;
-	padding: 10px;
+	padding: 10px 10px 10px 0px;
 }
 
 .contact address {
-	margin: 10px 0;
+	margin-bottom: 20px 0;
 }
 
 .contact p {
-	margin: 10px 0;
+	margin: 20px 0;
 }
 
 .footer {
+	margin-top: 20px;
 	text-align: center;
 }
